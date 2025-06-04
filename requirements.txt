@@ -1,0 +1,3 @@
+pinecone
+llama_index
+pathlib

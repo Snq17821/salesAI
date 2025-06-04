@@ -1,3 +1,4 @@
 pinecone
 llama_index
 pathlib
+llama_index.vector_stores

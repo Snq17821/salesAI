@@ -16,11 +16,11 @@ from pinecone import Pinecone
 # Set your API keys and environment variables.
 # Ensure these are set in your environment or replace "YOUR_..." placeholders.
 # For Streamlit Cloud, you'd typically set these as secrets.
-PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY", "pcsk_31Uutm_6Q3pgqdFEuAcsp6xhT7LWTFr4qpUWRTnf8fr1w7nTnRndvZk2pS1vbYe9qvjwdD")
+PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY", "")
 # PINECONE_ENVIRONMENT is often required, but some Pinecone setups (e.g., serverless in a default region)
 # might infer it or not strictly require it in the constructor. Uncomment and set if needed.
 # PINECONE_ENVIRONMENT = os.environ.get("PINECONE_ENVIRONMENT", "YOUR_PINECONE_ENVIRONMENT") # e.g., "us-west-2"
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "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")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
 # Define your Pinecone index name (must match the one used for ingestion)
 INDEX_NAME = "playbook" # Ensure this matches your ingested index name

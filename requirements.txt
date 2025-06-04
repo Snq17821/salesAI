@@ -1,4 +1,4 @@
-pinecone
-llama_index
+pinecone-client
+llama-index
 pathlib
-llama_index.vector_stores
+openai

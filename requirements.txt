@@ -1,4 +1,4 @@
 pinecone-client
-llama-index
+llama-index==0.12.40
 pathlib
 openai
